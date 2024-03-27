@@ -1,0 +1,147 @@
+:root {
+    --color-red: #f03c43;
+    --color-white: #fff;
+    --color-blue: #222374;
+    --color-light-gray: #ccc;
+    --color-black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 20px 0;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.link-insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.billhead {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.img-instagram img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.link-insta {
+    font-size: 14px;
+}
+
+.space {
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+
+.space h1 {
+    color: var(--color-white);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.space-descriptions {
+    background-color: var(--color-light-gray);
+    color: var(--color-black);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.modalities {
+    background-color: var(--color-white);
+    padding: 20px;
+}
+
+.modalities h1 {
+    color: var(--color-red);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.modalities-descriptions {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content,
+.footer-content-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.footer-content a {
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.footer-content address {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.address-line {
+    margin-top: 5px;
+    /* Adicionando espaçamento entre as linhas de endereço */
+}
